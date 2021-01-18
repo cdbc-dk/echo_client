@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1569302157"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/home/bc/src/test/tcp/recv_buf_srv/lib/x86_64-linux -Fu/home/bc/src/library_2020/synapse/source/lib -Fu/home/bc/src/library_2020 -Fu/usr/lib64/lazarus/lcl/units/x86_64-linux/gtk2 -Fu/usr/lib64/lazarus/lcl/units/x86_64-linux -Fu/usr/lib64/lazarus/components/lazutils/lib/x86_64-linux -Fu/usr/lib64/lazarus/packager/units/x86_64-linux -Fu/home/bc/src/test/tcp/recv_buf_srv/ -FU/home/bc/src/test/tcp/recv_buf_srv/lib/x86_64-linux/ -FE/home/bc/src/test/tcp/recv_buf_srv/ -o/home/bc/src/test/tcp/recv_buf_srv/recv_buf_srv -dLCL -dLCLgtk2 recv_buf_srv.lpr"/>
+</CONFIG>

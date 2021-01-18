@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 319
+  Height = 480
+  Top = 131
+  Width = 640
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = poScreenCenter
+  LCLVersion = '2.0.4.0'
+  object btnStartSrv: TButton
+    Left = 25
+    Height = 25
+    Top = 16
+    Width = 271
+    Caption = 'Start Udp-server'
+    OnClick = btnStartSrvClick
+    TabOrder = 0
+  end
+  object btnSend: TButton
+    Left = 308
+    Height = 25
+    Top = 33
+    Width = 227
+    Caption = 'Send udp msg'
+    OnClick = btnSendClick
+    TabOrder = 1
+  end
+  object memSrv: TMemo
+    Left = 9
+    Height = 387
+    Top = 77
+    Width = 295
+    Color = clBlack
+    Font.Color = clYellow
+    ParentFont = False
+    TabOrder = 2
+  end
+  object memcli: TMemo
+    Left = 312
+    Height = 387
+    Top = 77
+    Width = 320
+    Color = clBlack
+    Font.Color = clYellow
+    ParentFont = False
+    TabOrder = 3
+  end
+  object btnStopSrv: TButton
+    Left = 25
+    Height = 25
+    Top = 47
+    Width = 275
+    Caption = 'Stop Udp-Server'
+    OnClick = btnStopSrvClick
+    TabOrder = 4
+  end
+  object timMsgQ: TIdleTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = timMsgQTimer
+    left = 562
+    top = 18
+  end
+end

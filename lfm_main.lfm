@@ -1,0 +1,72 @@
+object frmTcp: TfrmTcp
+  Left = 718
+  Height = 328
+  Top = 128
+  Width = 509
+  Caption = 'Tcp - Client / Server'
+  ClientHeight = 328
+  ClientWidth = 509
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '2.0.10.0'
+  object btnSend: TButton
+    Left = 8
+    Height = 29
+    Top = 24
+    Width = 96
+    Caption = 'Send to Echo'
+    OnClick = btnSendClick
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 264
+    Top = 56
+    Width = 491
+    Color = clBlack
+    Font.Color = clYellow
+    Font.Height = -16
+    Lines.Strings = (
+      ''
+    )
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edtAdress: TLabeledEdit
+    Left = 280
+    Height = 29
+    Top = 24
+    Width = 119
+    EditLabel.Height = 17
+    EditLabel.Width = 119
+    EditLabel.Caption = 'Remote Adress:'
+    EditLabel.ParentColor = False
+    TabOrder = 2
+    Text = '127.0.0.1'
+  end
+  object edtPort: TLabeledEdit
+    Left = 400
+    Height = 29
+    Top = 24
+    Width = 96
+    EditLabel.Height = 17
+    EditLabel.Width = 96
+    EditLabel.Caption = 'Remote Port:'
+    EditLabel.ParentColor = False
+    TabOrder = 3
+    Text = '8723'
+  end
+  object edtCommand: TLabeledEdit
+    Left = 112
+    Height = 29
+    Top = 24
+    Width = 168
+    EditLabel.Height = 17
+    EditLabel.Width = 168
+    EditLabel.Caption = 'Command:'
+    EditLabel.ParentColor = False
+    TabOrder = 4
+    Text = '.send|Kontoudskrift 6715608194.PDF'
+  end
+end
