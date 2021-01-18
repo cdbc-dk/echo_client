@@ -1,9 +1,9 @@
 object frmTcp: TfrmTcp
-  Left = 718
+  Left = 700
   Height = 328
-  Top = 128
+  Top = 322
   Width = 509
-  Caption = 'Tcp - Client / Server'
+  Caption = 'Echo Client'
   ClientHeight = 328
   ClientWidth = 509
   KeyPreview = True
@@ -67,6 +67,6 @@ object frmTcp: TfrmTcp
     EditLabel.Caption = 'Command:'
     EditLabel.ParentColor = False
     TabOrder = 4
-    Text = '.send|Kontoudskrift 6715608194.PDF'
+    Text = '.list|Kontoudskrift 6715608194.PDF'
   end
 end
